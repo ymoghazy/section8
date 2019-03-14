@@ -4,7 +4,7 @@ public class SumSquare {
 		int sum = 0;
 		while (x <= 33){
 			sum += Math.pow(x , 2);
-		    System.out.printf("Cumulation results: %-8d :         %-8d *         %-8d%n", sum , x , x );
+		    System.out.printf("Cumulation results: %-8d%8s%8d%8s%8d\n", sum ,":", x ,"*", x );
 		    x += 3;
 		}
 		System.out.print("The SUM of Square of muiples of 3 is " + sum);
